@@ -1,0 +1,20 @@
+citHeader("To cite irtrees in publications use:")
+
+citEntry(entry = "Article",
+  title        = "IRTrees: Tree-Based Item Response Models of the GLMM Family",
+  author       = personList(person("Paul", "De Boeck"),
+                   as.person("Ivailo Partchev")),
+  journal      = "Journal of Statistical Software -- Code Snippets",
+  year         = "2012",
+  volume       = "48",
+  number       = "1",
+  pages        = "1--28",
+  url          = "http://www.jstatsoft.org/v48/c01/",
+
+  textVersion  =
+  paste("Paul De Boeck, Ivailo Partchev (2012).",
+        "IRTrees: Tree-Based Item Response Models of the GLMM Family.",
+        "Journal of Statistical Software - Code Snippets, 48(1), 1-28.",
+        "URL http://www.jstatsoft.org/v48/c01/.")
+)
+
