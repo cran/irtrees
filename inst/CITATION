@@ -9,12 +9,12 @@ citEntry(entry = "Article",
   volume       = "48",
   number       = "1",
   pages        = "1--28",
-  url          = "http://www.jstatsoft.org/v48/c01/",
+  url          = "https://www.jstatsoft.org/v48/c01/",
 
   textVersion  =
   paste("Paul De Boeck, Ivailo Partchev (2012).",
         "IRTrees: Tree-Based Item Response Models of the GLMM Family.",
         "Journal of Statistical Software - Code Snippets, 48(1), 1-28.",
-        "URL http://www.jstatsoft.org/v48/c01/.")
+        "URL https://www.jstatsoft.org/v48/c01/.")
 )
 

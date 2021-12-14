@@ -17,6 +17,7 @@ tolong <- function(mat) {
 }
 
 dendrify <- function(mat, cmx) {
+    item <- node <-  value <- NULL 
     ff <- factor((m1 <- tolong(mat))[["value"]])
     stopifnot(is.matrix(cmx),
               (nr <- nrow(cmx)) == length(levels(ff)),

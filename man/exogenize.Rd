@@ -38,7 +38,7 @@ exogenize(mat, cmx, items=seq_len(ncol(mat)), endnode, crossitem=NULL)
   De Boeck, P. and Partchev, I. (2012).
   IRTrees: Tree-Based Item Response Models of the GLMM Family,
   \emph{Journal of Statistical Software -- Code Snippets}, \bold{48}(1), 1--28.
-  \url{http://www.jstatsoft.org/v48/c01/}.
+  \url{https://www.jstatsoft.org/v48/c01/}.
 }
 \author{Ivailo Partchev}
 \seealso{\code{\link{dendrify}}}

@@ -1,3 +1,16 @@
+import(DiagrammeR)
+importFrom("tidyr", "pivot_wider")
+importFrom("stats", "na.omit")
+importFrom("stats", "as.formula", "var")
+export(WtoW_single.tree)
+export(WtoW_multi.tree)
+export(LtoL_single.tree)
+export(LtoL_multi.tree)
+export(LtoW_single.tree)
+export(LtoW_multi.tree)
+export(WtoL_single.tree)
+export(WtoL_multi.tree)
+export(graph2mx)
 export(dendrify,
        exogenize)
 

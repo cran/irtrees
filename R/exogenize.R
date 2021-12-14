@@ -1,4 +1,5 @@
 exogenize <- function(mat, cmx, items = seq_len(ncol(mat)), endnode, crossitem = NULL) {
+    item <- NULL
     stopifnot(is.matrix(mat),
               length(unique(as.vector(mat))) == 2, # must be a binary matrix
               is.integer(items),
